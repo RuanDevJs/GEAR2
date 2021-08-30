@@ -1,0 +1,100 @@
+@media only screen and (max-width: 767px) {
+  .header-before-container {
+    padding: 5px;
+  }
+
+  .header-container {
+    justify-content: center !important;
+  }
+
+  .header-item-2 {
+    display: none;
+  }
+
+  .header-login {
+    display: none !important;
+  }
+
+  .header-item-1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-item-1 button {
+    display: block;
+    margin: 0 10px;
+    border: 0;
+    background-color: #222;
+    border-radius: 4px;
+  }
+
+  .header-item-1 div button div {
+    width: 25px;
+    height: 4px;
+    display: block;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  .all-products-title {
+    text-align: center;
+  }
+
+  .all-products-container {
+    justify-content: center !important;
+  }
+
+  .category-item {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .img-item {
+    justify-content: center !important;
+  }
+
+  .title {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .title h2 {
+    font-size: 32px !important;
+  }
+
+  .subtitle p {
+    text-align: center;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .form {
+    justify-content: center !important;
+  }
+
+  .form > input {
+    margin: 0 auto !important;
+    padding: 12px 0 !important;
+    border: 0;
+    text-align: center;
+  }
+
+  .form > button {
+    margin: 0 auto !important;
+    width: 220px !important;
+    padding: 10px !important;
+  }
+
+  .footer-container {
+    justify-content: center !important;
+  }
+
+  .logo-footer {
+    text-align: center;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,65 @@
+/****** Attributes ***********/
+
+[data-animateUp] {
+  opacity: 0;
+}
+
+[data-scroll] div {
+  opacity: 0;
+}
+
+[data-scroll] div.activeDown {
+  opacity: 1;
+  animation: AnimateDown 0.5s forwards;
+}
+
+.active {
+  opacity: 1;
+  animation: AnimateUp 0.5s forwards;
+}
+
+[data-menuProduct].activeProduct {
+  display: block;
+  animation: AnimateUp 0.5s forwards;
+}
+
+/****** Effects ***********/
+
+@keyframes AnimateUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes AnimateRight {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes AnimateDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0);
+    filter: blur(0px);
+  }
+}
